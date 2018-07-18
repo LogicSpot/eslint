@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Logicspot (logicspot.com) Shared ESLint config file",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LogicSpot/eslint-config.git"
@@ -14,5 +13,10 @@
   "bugs": {
     "url": "https://github.com/LogicSpot/eslint-config/issues"
   },
-  "homepage": "https://github.com/LogicSpot/eslint-config#readme"
+  "homepage": "https://github.com/LogicSpot/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-react": "^7.10.0"
+  }
 }
