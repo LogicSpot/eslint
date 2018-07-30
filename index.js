@@ -9,13 +9,14 @@ module.export = {
         "eslint:recommended"
     ],
     "parserOptions": {
+        "ecmaVersion": 2015,
         "ecmaFeatures": {
             "classes": true,
             "experimentalObjectRestSpread": true,
             "impliedStrict": true,
             "jsx": true
         },
-        "ecmaVersion": 8
+        "sourceType": "module"
     },
     "rules": {
         "accessor-pairs": "error",
@@ -108,7 +109,7 @@ module.export = {
         "keyword-spacing": "off",
         "line-comment-position": "off",
         "linebreak-style": [
-            "off",
+            "error",
             "unix"
         ],
         "lines-around-comment": "off",
@@ -289,7 +290,10 @@ module.export = {
         "require-await": "error",
         "require-jsdoc": "off",
         "rest-spread-spacing": "off",
-        "semi": "off",
+        "semi": [
+            "error",
+            "always"
+        ],
         "semi-spacing": [
             "off",
             {
