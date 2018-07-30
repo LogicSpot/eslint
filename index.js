@@ -24,8 +24,8 @@ module.exports = {
   ],
   "rules": {
     "arrow-body-style": [
-        "as-needed",
-        2
+        2,
+        "as-needed"
     ],
     "comma-dangle": 0,
     "consistent-return": 0,
@@ -49,8 +49,8 @@ module.exports = {
         }
     ],
     "quotes": [
-        "single",
         2,
+        "single",
         {
             "allowTemplateLiterals": true,
             "avoidEscape": true
