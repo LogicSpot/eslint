@@ -221,7 +221,7 @@ module.export = {
         "no-ternary": "off",
         "no-throw-literal": "error",
         "no-trailing-spaces": "off",
-        "no-undef": "off",
+        "no-undef": "error",
         "no-undef-init": "error",
         "no-undefined": "error",
         "no-underscore-dangle": "off",
