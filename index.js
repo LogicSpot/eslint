@@ -4,7 +4,6 @@ module.export = {
         "es6": true,
         "jquery": true,
     },
-    "parser": "babel-eslint",
     "extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 6,
@@ -13,7 +12,8 @@ module.export = {
             "experimentalObjectRestSpread": true,
             "impliedStrict": true,
             "jsx": true
-        }
+        },
+        "sourceType": "module"
     },
     "rules": {
         "accessor-pairs": "error",
