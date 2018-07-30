@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-logicspot",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Logicspot (logicspot.com) Shared ESLint config file",
   "main": "index.js",
   "scripts": {},
@@ -16,6 +16,7 @@
   "homepage": "https://github.com/LogicSpot/eslint-config#readme",
   "dependencies": {
     "eslint": "^5.2.0",
+    "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.13.0"
   }
 }

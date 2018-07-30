@@ -3,20 +3,17 @@ module.export = {
         "browser": true,
         "es6": true,
         "jquery": true,
-        "node": true
     },
-    "extends": [
-        "eslint:recommended"
-    ],
+    "parser": "babel-eslint",
+    "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 2015,
+        "ecmaVersion": 6,
         "ecmaFeatures": {
             "classes": true,
             "experimentalObjectRestSpread": true,
             "impliedStrict": true,
             "jsx": true
-        },
-        "sourceType": "module"
+        }
     },
     "rules": {
         "accessor-pairs": "error",
