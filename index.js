@@ -6,7 +6,7 @@ module.exports = {
     "node": true
   },
   "extends": [
-    "airbnb"
+    "eslint:recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
