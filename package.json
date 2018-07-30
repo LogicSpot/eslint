@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-logicspot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Logicspot (logicspot.com) Shared ESLint config file",
   "main": "index.js",
   "scripts": {},
@@ -14,7 +14,7 @@
     "url": "https://github.com/LogicSpot/eslint-config/issues"
   },
   "homepage": "https://github.com/LogicSpot/eslint-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^5.2.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-prettier": "^2.9.0",
