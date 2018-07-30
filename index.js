@@ -6,9 +6,7 @@ module.exports = {
     "node": true
   },
   "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/react"
+    "airbnb"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -19,9 +17,6 @@ module.exports = {
     },
     "ecmaVersion": 8
   },
-  "plugins": [
-    "prettier"
-  ],
   "rules": {
     "arrow-body-style": [
         2,
@@ -40,14 +35,6 @@ module.exports = {
     "no-unused-vars": [
         1
     ],
-    "prettier/prettier": [
-        "error",
-        {
-            "printWidth": 120,
-            "singleQuote": true,
-            "trailingComma": "es5"
-        }
-    ],
     "quotes": [
         2,
         "single",
@@ -56,10 +43,6 @@ module.exports = {
             "avoidEscape": true
         }
     ],
-    "radix": 0,
-    "react/display-name": 1,
-    "react/forbid-prop-types": 0,
-    "react/no-unescaped-entities": 0,
-    "react/react-in-jsx-scope": 0
+    "radix": 0
   }
 }
