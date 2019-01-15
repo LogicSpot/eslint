@@ -14,15 +14,9 @@ Add to your ESLint config (`.eslintrc` or simular):
 }
 ```
 
-By default this config supports ES6, but to downgrade to an ES5 only prodject, add this to your ESLint config:
-
+By default this config supports ES6, but to downgrade to an ES5 only prodject, you can use this config instead
 ```
 {
-  "parserOptions": {
-    "ecmaVersion": 5,
-    "ecmaFeatures": {
-      "classes": false
-    }
-  }
+  "extends": ["eslint-config-logicspot/es5"]
 }
 ```
