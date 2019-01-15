@@ -4,9 +4,12 @@ module.export = {
     "prettier",
     "prettier/react"
   ],
+  "plugins": [
+    "prettier"
+  ],
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 6,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "impliedStrict": true,
@@ -20,8 +23,6 @@ module.export = {
     "jest": true
   },
   "rules": {
-    "no-debugger": 0,
-    "no-alert": 0,
     "no-await-in-loop": 0,
     "no-return-assign": [
       "error",
@@ -78,7 +79,6 @@ module.export = {
     "react/prefer-stateless-function": 0,
     "react/forbid-prop-types": 0,
     "react/no-unescaped-entities": 0,
-    "jsx-a11y/accessible-emoji": 0,
     "react/require-default-props": 0,
     "react/jsx-filename-extension": [
       1,
@@ -113,7 +113,7 @@ module.export = {
       }
     ],
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "trailingComma": "es5",
         "singleQuote": true,
@@ -129,8 +129,5 @@ module.export = {
         ]
       }
     ]
-  },
-  "plugins": [
-    "prettier"
-  ]
+  }
 }
