@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-logicspot",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Logicspot (logicspot.com) Shared ESLint config file",
   "main": "index.js",
   "scripts": {},

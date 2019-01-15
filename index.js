@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   "extends": [
     "airbnb",
     "prettier",
@@ -15,15 +15,15 @@ module.export = {
       "impliedStrict": true,
       "classes": true
     }
-  },
+	},
   "env": {
-    "browser": true,
+		"browser": true,
     "node": true,
     "jquery": true,
     "jest": true
-  },
+	},
   "rules": {
-    "no-await-in-loop": 0,
+		"no-await-in-loop": 0,
     "no-return-assign": [
       "error",
       "except-parens"
@@ -44,7 +44,7 @@ module.export = {
     "prefer-const": [
       "error",
       {
-        "destructuring": "all",
+        "destructuring": "all"
       }
     ],
     "arrow-body-style": [
@@ -117,9 +117,11 @@ module.export = {
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 80,
+				"printWidth": 80,
+				"tabWidth": 2,
+				"useTabs": false
       }
-    ],
+		],
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": [
       "warn",
