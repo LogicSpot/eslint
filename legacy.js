@@ -1,10 +1,6 @@
 module.exports = {
   "extends": [
-    "prettier",
-    "prettier/react"
-  ],
-  "plugins": [
-    "prettier"
+    "eslint:recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -38,7 +34,7 @@ module.exports = {
       1,
       {
         "ignoreSiblings": true,
-        "argsIgnorePattern": "res|next|^err"
+        "argsIgnorePattern": "res|^err"
       }
     ],
     "prefer-const": [
@@ -113,16 +109,6 @@ module.exports = {
         "allowTemplateLiterals": true
       }
     ],
-    "prettier/prettier": [
-      "warn",
-      {
-        "trailingComma": "es5",
-        "singleQuote": true,
-				"printWidth": 80,
-				"tabWidth": 2,
-				"useTabs": false
-      }
-		],
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": [
       "warn",
