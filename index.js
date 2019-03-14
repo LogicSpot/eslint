@@ -15,7 +15,8 @@ module.exports = {
 		"browser": true,
     "node": true,
     "jquery": true,
-    "jest": true
+    "jest": true,
+    "es6": false
 	},
   "rules": {
 		"no-await-in-loop": 0,
@@ -66,25 +67,8 @@ module.exports = {
     "space-before-function-paren": 0,
     "comma-dangle": 0,
     "max-len": 0,
-    "import/extensions": 0,
     "no-underscore-dangle": 0,
     "consistent-return": 0,
-    "react/display-name": 1,
-    "react/no-array-index-key": 0,
-    "react/react-in-jsx-scope": 0,
-    "react/prefer-stateless-function": 0,
-    "react/forbid-prop-types": 0,
-    "react/no-unescaped-entities": 0,
-    "react/require-default-props": 0,
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
-      }
-    ],
     "radix": 0,
     "no-shadow": [
       2,
@@ -106,15 +90,6 @@ module.exports = {
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
-      }
-    ],
-    "jsx-a11y/href-no-hash": "off",
-    "jsx-a11y/anchor-is-valid": [
-      "warn",
-      {
-        "aspects": [
-          "invalidHref"
-        ]
       }
     ]
   }
