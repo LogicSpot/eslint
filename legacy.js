@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
-    "eslint:recommended"
+    "airbnb/legacy"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
