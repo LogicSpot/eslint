@@ -16,7 +16,8 @@ module.exports = {
     "node": true,
     "jquery": true,
     "jest": true,
-    "es6": false
+    "es6": true,
+    "amd": true
 	},
   "rules": {
 		"no-await-in-loop": 0,
